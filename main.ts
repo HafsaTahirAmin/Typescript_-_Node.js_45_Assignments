@@ -1,9 +1,6 @@
-//  Q: Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase,
-// uppercase,and titlecase.
+// Q: Famous Quote: Find a quote from a famous person you admire.
+// Print the quote and the name of its author. Your output should look something like the following,
+// including the quotation marks:
 
-let personName= "HafsaTahir";
-console.log("LowerCase:", personName.toLowerCase())
-console.log("UpperCase:", personName. toUpperCase())
-console.log("TitleCase:", personName.replace(/\b\w/g, c=> c.toUpperCase()))
+console.log("Steve Jobs once said", '"The only way to do great work is to love what you do"');
 
-// console.log("hafsatahir\nHAFSATAHIR\nHafsaTahir");
