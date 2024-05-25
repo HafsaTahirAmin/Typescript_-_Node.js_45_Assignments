@@ -1,9 +1,6 @@
-// Q: You should create four lines that look like this:
-// console.log(5 + 3)
-// Your output should simply be four lines with the number 8 appearing once on each line.
+// Q: Favorite Number: Store your favorite number in a variable. Then, using that variable,
+// create a message that reveals your favorite number. Print that message.
 
-console.log(6 + 2);
-console.log(9 - 1);
-console.log(4 * 2);
-console.log(16 / 2);
-// same as question 7
+
+let favouriteNumber= 31;
+console.log("My Favourite Number is", favouriteNumber);
