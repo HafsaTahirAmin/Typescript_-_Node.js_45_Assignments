@@ -1,6 +1,8 @@
 "use strict";
-// Q: Famous Quote 2: Repeat Exercise 4, but this time store the famous person’s name in a variable called famous_person.
-// Then compose your message and store it in a new variable called message. Print your message.
-let famousPerson = "Steve Jobs";
-let message = "once said, 'The only way to do great work is to love what you do'";
-console.log(famousPerson, message);
+// Q:Stripping Names: Store a person’s name, and include some whitespace characters at the beginning and end of the name.
+// Make sure you use each character combination, "\t" and "\n", at least once. Print the name once,
+// so the whitespace around the name is displayed. Then print the name after striping the white spaces.
+let whiteSpace = "\n\t Hafsa Tahir\t\n";
+console.log(whiteSpace);
+let withoutWhiteSpace = whiteSpace.trim();
+console.log(withoutWhiteSpace);
